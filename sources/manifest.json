@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Laudo Checker",
+  "version": "1.0",
+  "description": "Checa as alterações que devem ser adicionadas em um Hemograma. Por enquanto suporta checagem do Leucograma e Plaquetograma.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://renatofreire.sisvida.com.br/laboratorio/resultados/conferir_exame/*"
+      ],
+      "js": [
+        "extension_core.js"
+      ]
+    }
+  ]
+}
