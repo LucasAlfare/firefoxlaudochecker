@@ -1169,9 +1169,6 @@ const TARGET_INDICES = {
 };
 
 window.addEventListener('load', function () {
-    // var jQueryScript = document.createElement('script');
-    // jQueryScript.setAttribute('src','https://unpkg.com/sweetalert/dist/sweetalert.min.js');
-    // document.head.appendChild(jQueryScript);
 
     let laudoInfo = document
         .querySelector("#resultado_0")
